@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.img-1{
+    height: 520px;
+    width: 320px;
+    padding-right: 50px;
+}
+.img-2{
+    height: 150px;
+    width: 200px;
+}
+.right{
+    width: 350px;
+    border: 1px solid rgb(195, 195, 195);
+    border-radius: 4px;
+}
+.right .header{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 17px;
+}
+.right .inputelement{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 37px 0px 37px;
+}
+.inputelement .inputText{
+    padding: 8px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.inputText{
+    outline: gray;
+}
+.inputbutton{
+    background-color: rgb(21, 134, 240);
+    color: white;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    border: none;
+}
+.line{
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+
+}
+.arrow{
+    background-color: gray;
+    height: 1px;
+    width: 120px;
+}
+.content{
+    color: gray;
+    margin-top: -8px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.social_icon{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+.fa-brands{
+    padding: 1px;
+    color: rgb(0,55,107);
+}
+.social_icon span{
+    color: rgb(0,55,107);
+    font-size: 17px;
+    font-weight: 500;
+}
+.forgetpassword{
+    margin: auto;
+    color: rgb(3, 66,124);
+    margin-bottom: 26px;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    margin-top: 30px;
+    border: 1px solid rgb(195, 195,195);
+    padding: 15px;
+    width: 320px;
+    text-align: center;
+}
+.footer span{
+    color: rgb(0,66,128);
+    font-weight: 400;
+}
